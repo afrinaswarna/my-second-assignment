@@ -89,17 +89,19 @@ list-style: none;
 /* plants section related styles */
 .plants-section{
     text-align: center;
+    margin-bottom: 150px;
 }
+
 .plants-section h3{
     font-weight: 700;
     font-size: 3.1rem;
-}
+}   
 .card-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
     margin-top: 49px;
-    margin-bottom: 80px;
+   
 }
 
 .card h4{
@@ -112,6 +114,47 @@ list-style: none;
     font-weight: 700;
     font-size: 1.2rem;
     margin-bottom: 30px;
+}
+/* flower and plant lover section */
+.plant-lover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.plant-lover-img{
+    position: relative;
+    flex: 1;
+    
+}
+.plant-lover-img img{
+    width: 100%;
+}
+ .plant-lover-img-first{
+    position: absolute;
+    width: 280px;
+    height: 280px;  
+    margin-top: -130px;
+    margin-left: 400px; 
+    
+}
+.plant-lover-img-second{
+    /* background: linear-gradient(180.00deg, rgba(103, 171, 234, 0.24),rgba(233, 90, 8, 0.6) 100%) */
+}
+
+.plant-lover-list{
+    flex: 1;
+}
+.plant-lover-list h3{
+    font-size: 3.1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.plant-lover-list ul li{
+    color: #00000080;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+
 }
 @media screen and (max-width:576px) {
     .navbar{
@@ -149,5 +192,19 @@ list-style: none;
     }
     .card img{
         width: 100%;
+    }
+    .plant-lover{
+        flex-direction: column;
+        padding: 15px;
+        margin-top: 50px;
+    }
+    .plant-lover-img-first{
+        display: none;
+    }
+    .plant-lover-list h3{
+        font-size: 2rem;
+    }
+    .plant-lover-list ul li{
+        margin-left: 30px;
     }
 }
