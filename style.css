@@ -112,7 +112,7 @@ header main {
   margin-bottom: 30px;
 }
 /* flower and plant lover section */
-.plant-lover {
+.plant-lover-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,11 +148,11 @@ header main {
   margin-bottom: 20px;
 }
 /* latest deals section */
-.latest-deal {
+.latest-deal-section {
   text-align: center;
   margin-bottom: 120px;
 }
-.latest-deal h3 {
+.latest-deal-section h3 {
   font-weight: 700;
   font-size: 3.2rem;
   margin-bottom: 16px;
@@ -225,7 +225,7 @@ header main {
   color: #ffffff;
 }
 /* join colorful bunch */
-.colorful-bunch {
+.colorful-bunch-section {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -235,7 +235,7 @@ header main {
   background-size: cover;
   height: 500px;
 }
-.colorful-bunch h4 {
+.colorful-bunch-section h4 {
   font-weight: 700;
   font-size: 3.12rem;
   color: #ffffff;
@@ -252,6 +252,29 @@ header main {
   padding: 8px 30px 8px 30px;
   font-weight: 400;
   font-size: 1rem;
+}
+
+/* footer related styles */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 160px 50px 160px;
+}
+.footer p{
+    margin-top: 16px;
+    color: #00000080;
+    max-width: 350px;
+}
+.footer a{
+    display: block;
+    margin-bottom: 32px;
+    text-decoration: none;
+    color: #6B7280;
+}
+.footer-icon img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 @media screen and (max-width: 576px) {
   .navbar {
@@ -303,7 +326,7 @@ header main {
   .card img {
     width: 100%;
   }
-  .plant-lover {
+  .plant-lover-section {
     flex-direction: column;
     gap: 20px;
     margin-left: 10px;
@@ -320,7 +343,7 @@ header main {
     padding-left: 10px;
   }
 
-  .latest-deal {
+  .latest-deal-section {
     margin-bottom: 50px;
   }
 
@@ -352,11 +375,11 @@ header main {
     font-size: 1.25rem;
     font-weight: 600;
   }
-  .colorful-bunch {
+  .colorful-bunch-section {
     height: auto;
     padding: 100px 20px 80px 20px;
   }
-  .colorful-bunch h4 {
+  .colorful-bunch-section h4 {
     font-weight: 600;
     font-size: 1.5rem;
   }
@@ -367,5 +390,13 @@ header main {
   }
   .colorful-bunch-input .btn{
     padding: 8px ;
+  }
+  .footer{
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
   }
 }
