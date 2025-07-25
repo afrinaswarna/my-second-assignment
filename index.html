@@ -1,141 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Flower Garden</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header>
-        <nav class="navbar container">
-            <img src="./assets/logo.png" alt="">
-            <ul class="nav-items inter-font">
-                <li><a id="link-home" href="">Home</a></li>
-                <li><a class="link-shop" href="">Shop</a></li>
-                <li><a class="link-shop" href="">About us</a></li>
-                <li><a id="link-card" href=""><i id="shopping-card" class="fa-solid fa-cart-shopping"></i>Card ($56)</a></li>
-            </ul>
-        </nav>
-        <div class="banner container">
-            <div class="banner-content noto-serif-font">
-                <h2 class="noto-serif-font">ALWAYS <span class="spacial-color-title">FRESH FLOWERS</span></h2>
-                <p class="section-description inter-font">Welcome to our vibrant online space dedicated to the beauty and joy of flower gardening! Whether you're a seasoned gardener or just starting to explore the world of blooms, this website is designed to inspire and inform.</p>
-            </div>
-            <img src="./assets/hero-flower.png" alt="">
+      <nav class="navbar container">
+        <img src="./assets/logo.png" alt="" />
+        <ul class="nav-items inter-font">
+          <li><a class="link-home" href="">Home</a></li>
+          <li><a class="link-shop" href="">Shop</a></li>
+          <li><a class="link-shop" href="">About us</a></li>
+          <li>
+            <a class="link-card" href=""
+              ><i id="shopping-card" class="fa-solid fa-cart-shopping"></i>Card
+              ($56)</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="banner container">
+        <div class="banner-content noto-serif-font">
+          <h2 class="noto-serif-font">
+            ALWAYS <span class="spacial-color-title">FRESH FLOWERS</span>
+          </h2>
+          <p class="section-description inter-font">
+            Welcome to our vibrant online space dedicated to the beauty and joy
+            of flower gardening! Whether you're a seasoned gardener or just
+            starting to explore the world of blooms, this website is designed to
+            inspire and inform.
+          </p>
         </div>
+        <img src="./assets/hero-flower.png" alt="" />
+      </div>
     </header>
     <main>
-        <!-- our plant section -->
-         <section class="plants-section container">
-            <h3 class="noto-serif-font"><span class="spacial-color-title">Our</span> Plants</h3>
-            <p class="section-description inter-font">Gardening is indeed a favourite pastime for us. With our busy and concrete lifestyle, gardening is the only way <br>that keeps us connected to mother nature. </p>
-            <div class="card-container">
-                <div class="card">
-                    <img src="./assets/sample-flower-image.png" alt="">
-                    <h4 class="inter-font">Lily Blossom</h4>
-                    <h5 class="inter-font">20 USD</h5>
-                    <button class="btn inter-font">ADD TO CART</button>
-                </div>
-                <div class="card">
-                    <img src="./assets/sample-flower-image.png" alt="">
-                    <h4 class="inter-font">Lily Blossom</h4>
-                    <h5 class="inter-font">20 USD</h5>
-                    <button class="btn inter-font">ADD TO CART</button>
-                </div>
-                <div class="card">
-                    <img src="./assets/sample-flower-image.png" alt="">
-                    <h4 class="inter-font">Lily Blossom</h4>
-                    <h5 class="inter-font">20 USD</h5>
-                    <button class="btn inter-font">ADD TO CART</button>
-                </div>
-                <div class="card">
-                    <img src="./assets/sample-flower-image.png" alt="">
-                    <h4 class="inter-font">Lily Blossom</h4>
-                    <h5 class="inter-font">20 USD</h5>
-                    <button class="btn inter-font">ADD TO CART</button>
-                </div>
-                <div class="card">
-                    <img src="./assets/sample-flower-image.png" alt="">
-                    <h4 class="inter-font">Lily Blossom</h4>
-                    <h5 class="inter-font">20 USD</h5>
-                    <button class="btn inter-font">ADD TO CART</button>
-                </div>
-                <div class="card">
-                    <img src="./assets/sample-flower-image.png" alt="">
-                    <h4 class="inter-font">Lily Blossom</h4>
-                    <h5 class="inter-font">20 USD</h5>
-                    <button class="btn inter-font">ADD TO CART</button>
-                </div>
-                <div class="card">
-                    <img src="./assets/sample-flower-image.png" alt="">
-                    <h4 class="inter-font">Lily Blossom</h4>
-                    <h5 class="inter-font">20 USD</h5>
-                    <button class="btn inter-font">ADD TO CART</button>
-                </div>
-                <div class="card">
-                    <img src="./assets/sample-flower-image.png" alt="">
-                    <h4 class="inter-font">Lily Blossom</h4>
-                    <h5 class="inter-font">20 USD</h5>
-                    <button class="btn inter-font">ADD TO CART</button>
-                </div>
-            </div>
-         </section>
-         <!-- flower and plant lover section -->
-          <section class="plant-lover container">
-            <div class="plant-lover-img">
-                <div class="plant-lover-img-first">
-                    <img src="./assets/trusted-badge.png" alt="">
-                </div>
-                <div class="plant-lover-img-second">
-                    <img src="./assets/flower-store.png" alt="">
-                </div>
+      <!-- our plant section -->
+      <section class="plants-section container">
+        <h3 class="noto-serif-font">
+          <span class="spacial-color-title">Our</span> Plants
+        </h3>
+        <p class="section-description inter-font">
+          Gardening is indeed a favourite pastime for us. With our busy and
+          concrete lifestyle, gardening is the only way <br />that keeps us
+          connected to mother nature.
+        </p>
+        <div class="card-container">
+          <div class="card">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h4 class="inter-font">Lily Blossom</h4>
+            <h5 class="inter-font">20 USD</h5>
+            <button class="btn inter-font">ADD TO CART</button>
+          </div>
+          <div class="card">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h4 class="inter-font">Lily Blossom</h4>
+            <h5 class="inter-font">20 USD</h5>
+            <button class="btn inter-font">ADD TO CART</button>
+          </div>
+          <div class="card">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h4 class="inter-font">Lily Blossom</h4>
+            <h5 class="inter-font">20 USD</h5>
+            <button class="btn inter-font">ADD TO CART</button>
+          </div>
+          <div class="card">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h4 class="inter-font">Lily Blossom</h4>
+            <h5 class="inter-font">20 USD</h5>
+            <button class="btn inter-font">ADD TO CART</button>
+          </div>
+          <div class="card">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h4 class="inter-font">Lily Blossom</h4>
+            <h5 class="inter-font">20 USD</h5>
+            <button class="btn inter-font">ADD TO CART</button>
+          </div>
+          <div class="card">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h4 class="inter-font">Lily Blossom</h4>
+            <h5 class="inter-font">20 USD</h5>
+            <button class="btn inter-font">ADD TO CART</button>
+          </div>
+          <div class="card">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h4 class="inter-font">Lily Blossom</h4>
+            <h5 class="inter-font">20 USD</h5>
+            <button class="btn inter-font">ADD TO CART</button>
+          </div>
+          <div class="card">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h4 class="inter-font">Lily Blossom</h4>
+            <h5 class="inter-font">20 USD</h5>
+            <button class="btn inter-font">ADD TO CART</button>
+          </div>
+        </div>
+      </section>
+      <!-- flower and plant lover section -->
+      <section class="plant-lover container">
+        <div class="plant-lover-img">
+          <div class="plant-lover-img-first">
+            <img src="./assets/trusted-badge.png" alt="" />
+          </div>
+          <div class="plant-lover-img-second">
+            <img src="./assets/flower-store.png" alt="" />
+          </div>
+        </div>
+        <div class="plant-lover-list">
+          <h3 class="noto-serif-font">Flower & Plants Lover</h3>
+          <ul class="inter-font">
+            <li>
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh.
+            </li>
 
+            <li>
+              With proper care, our flower shop will reward you with a stunning
+              display of colors and fragrances. Enjoy the beauty of your
+              flowers, relax in your home, and share the joy with others.
+            </li>
+            <li>
+              A flower garden is a space dedicated to growing and showcasing
+              flowering plants. It can be a small, dedicated area in a backyard
+              or a larger landscape feature.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- latest deal section -->
+      <section class="latest-deal container">
+        <h3 class="noto-serif-font">
+          <span class="spacial-color-title">Latest</span> Deals
+        </h3>
+        <p class="section-description inter">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From <br />
+          classic roses to exotic blooms, we offer a wide variety of fresh.
+        </p>
+        <div class="latest-deal-content">
+          <div class="latest-deals-left">
+            <div class="latest-deals-left-first">
+              <div>
+                <h4 class="noto-serif-font">60% Off | Bloom Plant</h4>
+                <a class="inter-font" href="">Shop Now</a>
+              </div>
             </div>
-            <div class="plant-lover-list">
-                <h3 class="noto-serif-font">Flower & Plants Lover</h3>
-                <ul class="inter-font">
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    
-                    <li>With proper care, our flower shop will reward you with a stunning display of colors and fragrances. Enjoy the beauty of your flowers, relax in your home, and share the joy with others. </li>
-                    <li>A flower garden is a space dedicated to growing and showcasing flowering plants. It can be a small, dedicated area in a backyard or a larger landscape feature.</li>
-                </ul>
-
+            <div class="latest-deals-left-second">
+              <div>
+                <h4 class="noto-serif-font">30% Off | Ana Plant</h4>
+                <a class="inter-font" href="">Shop Now</a>
+              </div>
             </div>
-          </section>
-          <!-- latest deal section -->
-           <section class="latest-deal container">
-            <h3 class="noto-serif-font"><span class="spacial-color-title">Latest</span>  Deals</h3>
-            <p class="section-description inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-            <div class="latest-deal-content">
-                <div class="latest-deals-left">
-                    <div class="latest-deals-left-first">
-                       <div>
-                            <h4 class="noto-serif-font">60% Off | Bloom Plant</h4>
-                             <a class="inter-font" href="">Shop Now</a>
-                        </div>
-                    </div>
-                    <div class="latest-deals-left-second">
-                        <div>
-                            <h4 class="noto-serif-font">30% Off | Ana  Plant</h4>
-                            <a class="inter-font" href="">Shop Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="latest-deals-right">
-                    <div>
-                        <h3 class="noto-serif-font">25% off | Zabo Plant</h3>
-                        <a class="inter-font" href="">Shop Now</a>
-                    </div>
-                </div>
+          </div>
+          <div class="latest-deals-right">
+            <div class="latest-deals-right-img">
+              <h3 class="noto-serif-font">25% off | Zabo Plant</h3>
+              <a class="inter-font" href="">Shop Now</a>
             </div>
-           </section>
-
+          </div>
+        </div>
+      </section>
+      <!-- join colorful bunch  -->
+       <section class="colorful-bunch noto-serif-font">
+        <div>
+            <h4>Join the colorful Bunch</h4>
+        <div class="colorful-bunch-input inter-font">
+            <input type="text" placeholder="write email">
+            <button class="btn">Subscribe</button>
+        </div>
+        </div>
+       </section>`
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>
