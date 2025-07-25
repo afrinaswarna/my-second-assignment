@@ -138,7 +138,7 @@ header main {
   flex: 1;
 }
 .plant-lover-list h3 {
-  font-size: 3.1rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -154,13 +154,13 @@ header main {
 }
 .latest-deal-section h3 {
   font-weight: 700;
-  font-size: 3.2rem;
+  font-size: 3rem;
   margin-bottom: 16px;
 }
 .latest-deal-content {
   display: flex;
   gap: 28px;
-  margin-top: 120px;
+  margin-top: 80px;
   height: 425px;
 }
 .latest-deals-left {
@@ -259,6 +259,8 @@ header main {
     display: flex;
     justify-content: space-between;
     padding: 50px 160px 50px 160px;
+    background: #FFFFFF80;
+    gap: 20px;
 }
 .footer p{
     margin-top: 16px;
@@ -276,6 +278,8 @@ header main {
     height: 20px;
     margin-right: 10px;
 }
+/* responsive styles for mobile devise */
+
 @media screen and (max-width: 576px) {
   .navbar {
     justify-content: space-between;
@@ -312,8 +316,12 @@ header main {
   .banner-content h2 {
     font-size: 2rem;
   }
+  /* plant section related styles */
   .plants-section {
     margin-bottom: 80px;
+  }
+  .plants-section h3{
+    font-size: 2rem;
   }
   .card-container {
     grid-template-columns: repeat(2, 1fr);
@@ -321,11 +329,12 @@ header main {
   }
   .card .btn {
     width: 100%;
-    padding: 15px;
+    padding: 12px 15px;
   }
   .card img {
     width: 100%;
   }
+  /* plant lover section related styles */
   .plant-lover-section {
     flex-direction: column;
     gap: 20px;
@@ -342,9 +351,12 @@ header main {
   .plant-lover-list ul {
     padding-left: 10px;
   }
-
+/* latest deal section related styles */
   .latest-deal-section {
     margin-bottom: 50px;
+  }
+  .latest-deal-section h3{
+    font-size: 2rem;
   }
 
   .latest-deal-content {
@@ -375,6 +387,7 @@ header main {
     font-size: 1.25rem;
     font-weight: 600;
   }
+  /* colorful bunch related styles */
   .colorful-bunch-section {
     height: auto;
     padding: 100px 20px 80px 20px;
@@ -383,7 +396,9 @@ header main {
     font-weight: 600;
     font-size: 1.5rem;
   }
-
+.colorful-bunch-input{
+    width: 100%;
+}
   .colorful-bunch-input input {
     padding: 8px 20px 8px 8px;
     color: #00000080;
@@ -391,12 +406,10 @@ header main {
   .colorful-bunch-input .btn{
     padding: 8px ;
   }
+  /* footer styles */
   .footer{
     flex-direction: column;
     padding: 0px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin: 20px 15px;
   }
 }
